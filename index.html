@@ -17,30 +17,30 @@
             CRUD System
         </h1>
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 order-1 order-lg-0 mt-5 mt-lg-0">
                 <div class="container">
                     <h4 class="text-primary">Search for courses </h4>
                     <input type="search" placeholder="search..." id="search" class="form-control my-3" onkeyup="serachCourses()">
         
                     <button id="deleteBtn" class="btn btn-outline-danger text-center my-3">delete all</button>
-
-                    <table class="table table table-striped">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>name</th>
-                                <th>category</th>
-                                <th>price</th>
-                                <th>description</th>
-                                <th>update</th>
-                                <th>delete</th>
-                            </tr>
-                        </thead>
-        
-                        <tbody id="tableBody">
-                        
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>name</th>
+                                    <th>category</th>
+                                    <th>price</th>
+                                    <th>description</th>
+                                    <th>update</th>
+                                    <th>delete</th>
+                                </tr>
+                            </thead>
+            
+                            <tbody id="tableBody">
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4">
